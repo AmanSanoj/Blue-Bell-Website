@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+html {
+	font-size: 14.5px;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.45em;
+	background-color: #f0f0f0;
+	color: #2b3838;
+}
+h1 {
+	color: white
+}
+.main_container {
+    margin: 50px 50px;
+}
+.sub_container {
+    padding: 15px;
+    background-color: white;
+    height: 25rem;
+}
+#acoustika .images {
+    width: 53%;
+    float: left;
+}
+
+#mallOfAsia .text {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 47%;
+    float: left;
+}
+
+#mallOfAsia h2 {
+    margin-bottom: 30px
+}
+
+#mallOfAsia p {
+    line-height: 140%;
+}
+
+#grandMall .images {
+    width: 53%;
+    float: left
+}
+
+#grandMall p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#grandMall p {
+    line-height: 140%;
+}
+
+.images img {
+    height: 11.3rem;
+}
+.text {
+    text-align: justify;
+    font-family: 'Patrick Hand', cursive;
+}
+.text h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text p {
+    line-height: 119%;
+    font-size: 25px;
+    margin-right: 10px;
+}
