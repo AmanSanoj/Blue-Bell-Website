@@ -17,11 +17,11 @@ h1 {
 	box-sizing: border-box;
 }
 .main_container {
-    width: 100vw;
+    width: 100vw; 
     height: 100vh;
 }
 .sub_container {
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
     margin-top: 0.7%;
     float: left;
@@ -41,6 +41,9 @@ h1 {
     line-height: 130%;
 }
 @media only screen and (max-width: 591px) {
+    .sub_container {
+        font-size: 4vw;
+    }
     .noLines2 h2 {
         margin-top: 7vh;
     }

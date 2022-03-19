@@ -31,7 +31,7 @@ header {
 .nav__links a,
 .cta,
 .overlay__content a {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Alegreya Sans SC", sans-serif;
 	font-weight: 500;
 	color: #edf0f1;
 	text-decoration: none;
@@ -132,4 +132,26 @@ header {
 	.menu {
 		display: initial;
 	}
+}
+
+button {
+	text-align: center;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	width: 80%;
+	display: inline;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 5px;
+	border: none;
+}
+
+#a {
+	background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+}
+
+#b {
+	background-image: linear-gradient(to left, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
 }
