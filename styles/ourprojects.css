@@ -18,8 +18,10 @@ h1 {
 }
 .sub_container {
     padding: 15px;
+    border-radius: 15px;
     background-color: white;
-    height: 25rem;
+    height: fit-content;
+    box-shadow: 20px 20px 50px 10px pink inset;
 }
 #acoustika .images {
     width: 53%;
@@ -27,6 +29,7 @@ h1 {
 }
 
 #mallOfAsia .text {
+    margin-right: 25px;
     padding-left: 25px;
     padding-right: 25px;
     width: 47%;
@@ -52,23 +55,67 @@ h1 {
 }
 
 #grandMall p {
-    line-height: 140%;
+    line-height: 165%;
 }
 
+#todaysFashion .text {
+    margin-right: 25px;
+    width: 47%;
+    height: 100%;
+    float: left;
+}
+
+#todaysFashion p {
+    font-size: xx-large;
+    line-height: 150%;
+}
+#legends .images {
+    width: 53%;
+    float: left;
+}
+#sel .text {
+    width: 47%;
+    margin-right: 25px;
+    float: left;
+}
+#tbridge .images{
+    width: 53%;
+    float: left;
+}
+#tbridge p {
+    line-height: 170%;
+}
 .images img {
-    height: 11.3rem;
+    height: 10.9vw;
 }
 .text {
     text-align: justify;
     font-family: 'Patrick Hand', cursive;
 }
 .text h2 {
-    font-size: 50px;
+    font-size: 3.5vw;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .text p {
     line-height: 119%;
-    font-size: 25px;
+    font-size: 1.8vw;
     margin-right: 10px;
 }
+#trustE h2 {
+    line-height: 185%;
+}
+#trustE .images {
+    width: 53%;
+    float: left;
+}
+
+#ibnA .text {
+    width: 47%;
+    margin-right: 25px;
+    float: left;
+}
+#ibnA h2 {
+    line-height: 200%;
+}
+

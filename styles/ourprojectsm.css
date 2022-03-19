@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+html {
+	font-size: 14.5px;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.45em;
+	background-color: #f0f0f0;
+	color: #2b3838;
+}
+h1 {
+	color: white
+}
+.main_container {
+    margin: 15px 15px;
+}
+.sub_container {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    height: fit-content;
+}
+
+.images img {
+    height: 27vw;
+}
+.text, h2 {
+    text-align: justify;
+    font-family: 'Patrick Hand', cursive;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.text p {
+    line-height: 119%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#mallOfAsia h2 {
+    font-size: 29px;
+}
+#grandMall h2 {
+    font-size: 26px;
+}
+#todaysFashion h2 {
+    font-size: 26px;
+}
+#ibnA h2 {
+    font-size: 26px;
+    line-height: 120%;
+}
+#trustE h2 {
+    font-size: 26px;
+    line-height: 120%;
+}

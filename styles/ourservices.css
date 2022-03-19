@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
+
+html {
+	font-size: 14.5px;
+}
+body {
+	font-family: "Alegreya Sans SC", sans-serif;
+	line-height: 1.45em;
+	background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+	color: #2b3838;
+    background-color: #a585c5;
+}
+h1 {
+	color: white
+}
+* {
+	box-sizing: border-box;
+}
+.main_container {
+    width: 100vw;
+    height: 100vh;
+}
+.sub_container {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0.7%;
+    float: left;
+    width: 48.5%;
+    height: 25%;
+    margin-bottom: 0.5%;
+    margin-left: 1%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background: rgb(238,174,202); */
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    box-shadow: 1px 3px 3px rgba(0, 10, 20, 0.06);
+}
+.sub_container h2 {
+    color: rgb(90, 90, 90);
+    margin-top: 10vh;
+    line-height: 130%;
+}
+@media only screen and (max-width: 591px) {
+    .noLines2 h2 {
+        margin-top: 7vh;
+    }
+}

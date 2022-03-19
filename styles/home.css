@@ -7,7 +7,7 @@ html {
 body {
 	font-family: "Open Sans", sans-serif;
 	line-height: 1.45em;
-	background-color: #f0f0f0;
+	background-color: #a585c5;
 	color: #2b3838;
 }
 h1 {
@@ -17,7 +17,9 @@ h1 {
 	box-sizing: border-box;
 }
 .main-container {
-	margin: 1.6rem 0.8rem;
+	padding-top: 5vh;
+	margin-bottom: -6vh;
+	background-color: #f0f0f0;
 }
 .grid-container {
 	margin: auto;
@@ -75,23 +77,31 @@ h1 {
 	padding: 1.6rem;
 }
 .card__button {
-	margin: 1rem 0;
 	text-align: center;
 	margin-left: 5px;
 	padding: 0.8vw 4.98vw;
-	background: none;
-	border: 0.5px solid #777;
+	background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+	width: 50%;
 	border-radius: 2px;
 	display: inline;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 5px;
 }
 .card__button:hover {
-	border-color: #d099a0;
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
 }
 .card__button__a {
 	color: #404646;
 	text-decoration: none;
 }
 .card--featured {
+	height: fit-content;
 	grid-row: auto / span 3;
 	grid-column: auto / span 2;
 }
@@ -180,8 +190,11 @@ h1 {
 		padding: 3vw 4.46vw;
 	}
 }
+
 @media only screen and (min-width: 450px) {
-	.how-it-works p {
-		margin-bottom: 18vh;
-	}
+	
+}
+footer p {
+	text-align: center;
+	margin-bottom: 15px;
 }
