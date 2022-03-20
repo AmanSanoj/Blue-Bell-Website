@@ -7,7 +7,7 @@ html {
 body {
 	font-family: "Open Sans", sans-serif;
 	line-height: 1.45em;
-	background-color: #f0f0f0;
+	background-color: #a585c5;
 	color: #2b3838;
 }
 h1 {
@@ -17,8 +17,9 @@ h1 {
     margin: 15px 15px;
 }
 .sub_container {
+    box-shadow: 1px 3px 3px rgba(0, 10, 20, 0.06);
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: white;
     height: fit-content;
 }

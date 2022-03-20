@@ -76,7 +76,7 @@ header {
 	z-index: 1;
 	left: 0;
 	top: 0;
-	background-color: rgb(172, 144, 200);
+	background-color: #a585c5;
 	overflow-x: hidden;
 	transition: all 0.5s ease 0s;
 }
@@ -102,7 +102,7 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-	color: rgb(136, 65, 207);
+	color: rgb(255, 255, 255);
 }
 .overlay .close {
 	position: absolute;
@@ -146,12 +146,5 @@ button {
 	box-shadow: 0 0 20px #eee;
 	border-radius: 5px;
 	border: none;
-}
-
-#a {
-	background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
-}
-
-#b {
-	background-image: linear-gradient(to left, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+	background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%);
 }
