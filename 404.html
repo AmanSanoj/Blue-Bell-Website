@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blue Bell International | Page Not Found</title>
+    <link rel="stylesheet" href="/styles/header.css" />
+    <style>
+      body {
+        background-color: #a585c5;
+        color: whitesmoke;
+      }
+      .main {
+        background-image: radial-gradient(
+          circle farthest-corner at 92.3% 71.5%,
+          rgba(83, 138, 214, 1) 0%,
+          rgba(134, 231, 214, 1) 90%
+        );
+        width: 100vw;
+        height: 99vh;
+        position: absolute;
+        padding: 10px;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .main div {
+        margin-top: 5vh;
+      }
+      .main p {
+        font-size: 15vw;
+        margin-bottom: 0;
+        font-weight: bold;
+      }
+      h3 {
+        margin: 0;
+        margin-bottom: 1vh;
+        font-size: 5vw;
+        text-transform: uppercase;
+      }
+      .main button {
+        background-image: linear-gradient(
+          to right,
+          #cc95c0 0%,
+          #dbd4b4 50%,
+          #cc95c0 100%
+        );
+        width: fit-content;
+        padding: 15px 30px;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 10px;
+        border: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+      }
+      button:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+      }
+      img {
+        margin-bottom: 10px;
+        height: 40px;
+      }
+      @media only screen and (max-width: 600px) {
+        .main div {
+          margin-top: 20vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="siteName" href="/">
+        <h1>Blue Bell International</h1>
+      </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/ourProjects/">Our Projects</a></li>
+          <li><a href="/ourServices">Services</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#">Contact</a>
+      <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close">&times;</a>
+      <div class="overlay__content">
+        <button id="a"><a href="/">Home</a></button>
+        <button id="a"><a href="/ourProjects/">Our Projects</a></button>
+        <button id="b"><a href="/ourServices">Services</a></button>
+      </div>
+    </div>
+    <div class="main">
+      <div>
+        <p>404</p>
+        <h3>The Page You're looking<br />for cannot be found</h3>
+        <button onclick="location.href='/'">Go Home</button>
+        <a target="_blank" href="https://instagram.com/bluebellinternational">
+          <img
+            src="https://img.shields.io/badge/bluebellinternational-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"
+            alt=""
+          />
+        </a>
+        <a target="_blank" href="https://facebook.com/bluebellinternational"
+          ><img
+            src="https://img.shields.io/badge/bluebellinternational-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"
+            alt=""
+        /></a>
+      </div>
+    </div>
+    <script src="/scripts/mobile.js"></script>
+  </body>
+</html>
